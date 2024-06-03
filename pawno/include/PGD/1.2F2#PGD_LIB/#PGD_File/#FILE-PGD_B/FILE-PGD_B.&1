@@ -1,0 +1,35 @@
+/*
+*
+*	-= PGD BASE =-
+*	Protioso Gerenciamento de Dados
+*	Autor: Protioso ([VGS]Protioso_OC)
+*
+*/
+
+#define PGD_ChecarInfoLeitura \
+		if(!strlen(arquivo)) {print("[PGD]: Impossivel prosseguir leitura! O nome do arquivo esta vazio!"); goto PGD_LFIM;} \
+		else if(!strlen(chave)) {print("[PGD]: Impossivel prosseguir leitura! O nome da chave esta vazia!"); goto PGD_LFIM;} \
+		else if(!strlen(prefixo)) {print("[PGD]: Impossivel prosseguir leitura! O prefixo esta vazio!"); goto PGD_LFIM;}
+
+#define PGD_ChecarInfoEscrita \
+		if(!strlen(arquivo)) {print("[PGD]: Impossivel prosseguir escrita! O nome do arquivo esta vazio!"); return 0;} \
+		else if(!strlen(chave)) {print("[PGD]: Impossivel prosseguir escrita! O nome da chave esta vazia!"); return 0;} \
+		else if(!strlen(prefixo)) {print("[PGD]: Impossivel prosseguir escrita! O prefixo esta vazio!"); return 0;}
+		
+stock pgd_CriarArquivo(nome_arquivo[])
+{
+	if(fexist(nome_arquivo)) return 0;
+	new File:arquivo;
+	arquivo = fopen(nome_arquivo, io_write);
+	fclose(arquivo);
+	return 1;
+}
+
+stock pgd_ApagarArquivo(nome_arquivo[])
+{
+	if(!pgd_ArquivoExiste(nome_arquivo)) return 0;
+	fremove(nome_arquivo);
+	return 1;
+}
+
+stock pgd_ArquivoExiste(nome_arquivo[]) return fexist(nome_arquivo);

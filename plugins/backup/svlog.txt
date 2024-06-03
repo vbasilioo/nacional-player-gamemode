@@ -1,0 +1,28 @@
+[02:16:14] : [sv:dbg:network:init] : module initializing...
+[02:16:14] : [dbg:raknet:init] : module initializing...
+[02:16:14] : [dbg:raknet:init] : installed hook to 'GetRakServerInterface' function (ptr:0x806ca30)
+[02:16:14] : [dbg:raknet:init] : installed hook to 'OnPlayerDisconnect' function (ptr:0x80a51d0)
+[02:16:14] : [dbg:raknet:init] : module initialized
+[02:16:14] : [sv:dbg:network:init] : module initialized
+[02:16:14] : [sv:dbg:pawn:init] : module initializing...
+[02:16:14] : [sv:dbg:pawn:init] : module initialized
+[02:16:14] :  -------------------------------------------    
+[02:16:14] :    ___                __   __    _              
+[02:16:14] :   / __| __ _ _ __  _ _\ \ / /__ (_) __ ___    
+[02:16:14] :   \__ \/ _` | '  \| '_ \   / _ \| |/ _/ -_)
+[02:16:14] :   |___/\__,_|_|_|_| .__/\_/\___/|_|\__\___|
+[02:16:14] :                   |_|                           
+[02:16:14] :  -------------------------------------------    
+[02:16:14] :            SampVoice by MOR loaded              
+[02:16:14] :  -------------------------------------------    
+[02:16:14] : [sv:dbg:main:AmxLoad] : net game pointer (value:0x931c6a0) received
+[02:16:14] : [sv:dbg:network:bind] : voice server running on port 37104
+[02:16:14] : [sv:dbg:pawn:register] : finding 'OnPlayerActivationKeyPress' callback function...
+[02:16:14] : [sv:dbg:pawn:register] : finding 'OnPlayerActivationKeyRelease' callback function...
+[02:16:14] : [sv:dbg:main:AmxLoad] : failed to bind voice server
+[02:16:14] : [sv:dbg:pawn:register] : finding 'OnPlayerActivationKeyPress' callback function...
+[02:16:14] : [sv:dbg:pawn:register] : finded 'OnPlayerActivationKeyPress' callback function (index:424)
+[02:16:14] : [sv:dbg:pawn:register] : finding 'OnPlayerActivationKeyRelease' callback function...
+[02:16:14] : [sv:dbg:pawn:register] : finded 'OnPlayerActivationKeyRelease' callback function (index:425)
+[02:16:14] : [sv:dbg:pawn:Debug] : mode(1)
+[02:16:14] : [sv:dbg:pawn:CreateGStream] : color(0xffff0000), name(G) : return(0xb9af0c0)

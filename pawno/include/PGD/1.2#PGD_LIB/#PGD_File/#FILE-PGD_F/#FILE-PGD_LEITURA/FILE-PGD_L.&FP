@@ -1,0 +1,35 @@
+/*
+*
+*	-= PGD FORMULAÇÃO =-
+*	Protioso Gerenciamento de Dados
+*	Autor: Protioso ([VGS]Protioso_OC)
+*
+*/
+
+stock pgd_CarregarChave(arquivo[], chave[], prefixo[2] = ":")
+{
+	new valorchave[MAX_VALOR_CHAR];
+	if(pgd_ArquivoExiste(arquivo))
+	{
+		new
+			bool:achou = false,
+			str[MAX_PGD_CHAR],
+			strbusca[MAX_PGD_CHAR],
+			cf[MAX_CHAVE_CHAR],
+			File:ArqM,
+			linhas;
+
+		if(strlen(chave) > MAX_CHAVE_CHAR) psf_CopiarStrL(cf, chave, 0, MAX_CHAVE_CHAR);
+		else psf_CopiarStrL(cf, chave, 0, strlen(chave));
+		pgd_FormatarCP(strbusca, cf, prefixo);
+		ArqM = fopen(arquivo, io_read);
+		while(fread(ArqM, str, sizeof(str), false))
+		{
+			linhas++;
+		    if(pgd_VerificarLinha(str, strbusca, prefixo, achou, linhas, false)) format(valorchave, sizeof(valorchave), "%s", str[strlen(strbusca)]);
+		}
+		fclose(ArqM);
+		pgd_FormatarValor(valorchave);
+	}
+	return valorchave;
+}

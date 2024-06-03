@@ -1,0 +1,133 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:53:36] 
+[20:53:36] Server Plugins
+[20:53:36] --------------
+[20:53:36]  Loading plugin: streamer
+[20:53:36] 
+
+*** Streamer Plugin v2.7.2 by Incognito loaded ***
+
+[20:53:36]   Loaded.
+[20:53:36]  Loading plugin: sscanf
+[20:53:36] 
+
+[20:53:36]  ===============================
+
+[20:53:36]       sscanf plugin loaded.     
+
+[20:53:36]          Version:  2.8.2        
+
+[20:53:36]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:53:36]  ===============================
+
+[20:53:36]   Loaded.
+[20:53:36]  Loading plugin: sampvoice
+[20:53:36] [sv:dbg:network:init] : module initializing...
+[20:53:36] [dbg:raknet:init] : module initializing...
+[20:53:36] [dbg:raknet:init] : installed hook to 'GetRakServerInterface' function (ptr:0044FAD0)
+[20:53:36] [dbg:raknet:init] : installed hook to 'OnPlayerDisconnect' function (ptr:0046D970)
+[20:53:36] [dbg:raknet:init] : module initialized
+[20:53:36] [sv:dbg:network:init] : module initialized
+[20:53:36]  -------------------------------------------    
+[20:53:36]    ___                __   __    _              
+[20:53:36]   / __| __ _ _ __  _ _\ \ / /__ (_) __ ___    
+[20:53:36]   \__ \/ _` | '  \| '_ \   / _ \| |/ _/ -_)
+[20:53:36]   |___/\__,_|_|_|_| .__/\_/\___/|_|\__\___|
+[20:53:36]                   |_|                           
+[20:53:36]  -------------------------------------------    
+[20:53:36]            SampVoice by MOR loaded              
+[20:53:36]  -------------------------------------------    
+[20:53:36]   Loaded.
+[20:53:36]  Loaded 3 plugins.
+
+[20:53:36] 
+[20:53:36] Filterscripts
+[20:53:36] ---------------
+[20:53:36]   Loading filterscript 'mapas.amx'...
+[20:53:36] [sv:dbg:main:AmxLoad] : net game pointer (value:00569C50) received
+[20:53:36] [sv:dbg:network:bind] : voice server running on port 61701
+[20:53:36] =-=-=-= Carregando Mapas =-=-=-=
+[20:53:37] Os mapas foram carregados.
+[20:53:37]   Loaded 1 filterscripts.
+
+[20:53:37] [sv:dbg:main:AmxLoad] : failed to bind voice server
+[20:53:37] [sv:dbg:pawn:Debug] : mode(1)
+[20:53:37] [sv:dbg:pawn:CreateGStream] : color(0xffff0000), name(G) : return(007599D0)
+[20:53:38] -mSelection- WARNING: Failed to load list: "furnmenu.txt"
+[20:53:38] -mSelection- WARNING: Failed to load list: "doors.txt"
+[20:53:38] -mSelection- WARNING: Failed to load list: "walls.txt"
+[20:53:38] -mSelection- WARNING: Failed to load list: "bathroom.txt"
+[20:53:38] -mSelection- WARNING: Failed to load list: "beds.txt"
+[20:53:38] -mSelection- WARNING: Failed to load list: "chairs.txt"
+[20:53:38] -mSelection- WARNING: Failed to load list: "eletronics.txt"
+[20:53:38] -mSelection- WARNING: Failed to load list: "fitness.txt"
+[20:53:38] -mSelection- WARNING: Failed to load list: "kitchen.txt"
+[20:53:38] -mSelection- WARNING: Failed to load list: "lights.txt"
+[20:53:38] -mSelection- WARNING: Failed to load list: "tables.txt"
+[20:53:38] -mSelection- WARNING: Failed to load list: "bqgg.txt"
+[20:53:38] -mSelection- WARNING: Failed to load list: "skins.txt"
+[20:53:38] 
+---------------------------------------------------------
+[20:53:38] Server Ligado: [15/01/2022 20:53:38]
+[20:53:38] ---------------------------------------------------------
+
+[20:53:38] -----------------------------
+[20:53:38] *** GM - NP RP Iniciado ***
+[20:53:38] -----------------------------
+[20:53:38] [INFO]: 39 Orgs Carregadas
+[20:54:31] ===========[Carregando Eleições]============
+[20:54:31] Sistema de Eleições Carregado! Canditatos: 5 
+[20:54:31] [INFO-STREAM] 71003 Objetos Carregados!
+[20:54:31] Server password has been removed.
+[20:54:31]  
+[20:54:31]  
+[20:54:31] *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+[20:54:31]  --==||| NacionalPlayer - RP |=|Presidente: Lohan |=|
+[20:54:31] =======================================================
+[20:54:31] |X|NP|X| |X|NP|X|  NP OWNA e você sabe!  |X|NP|X| |X|NP|X|
+[20:54:31] *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+[20:54:31]  
+[20:54:31] Number of vehicle models: 188
+[20:54:34] Sincronização chamada
+[20:55:23] [connection] 127.0.0.1:58518 requests connection cookie.
+[20:55:24] [connection] incoming connection: 127.0.0.1:58518 id: 0
+[20:55:24] [join] Bunny_Clay has joined the server (0:127.0.0.1)
+[20:55:25] Player ID 0 teve a vida alterada pelo servidor para -5.000000
+[20:55:26] Player ID 0 teve a vida alterada pelo servidor para -5.000000
+[20:55:37] Bunny_Clay Logou no Servidor.
+[20:55:37] [sv:dbg:pawn:GetVersion] : playerid(0) : return(0)
+[20:55:37] [sv:dbg:pawn:HasMicro] : playerid(0) : return(0)
+[20:55:37] [sv:dbg:pawn:GetVersion] : playerid(0) : return(0)
+[20:55:37] [sv:dbg:pawn:AddKey] : playerid(0), keyid(0x5a) : return(0)
+[20:55:37] [sv:dbg:pawn:CreateDLStreamAtPlayer] : distance(20.00), maxplayers(4294967295), playerid(0), color(0xff0000ff), name(L) : return(00000000)
+[20:55:37] O primeiro player logou no servidor e foi ativado o respawn de carros automático!
+[20:55:37] [sv:dbg:pawn:GetVersion] : playerid(0) : return(0)
+[20:55:37] Player ID 0 teve a vida alterada pelo servidor para 100.000000
+[20:55:37] [sv:dbg:pawn:GetVersion] : playerid(0) : return(0)
+[20:56:05] [sv:dbg:pawn:GetVersion] : playerid(0) : return(0)
+[20:56:05] [sv:dbg:pawn:GetVersion] : playerid(0) : return(0)
+[20:56:05] [sv:dbg:pawn:HasMicro] : playerid(0) : return(0)
+[20:56:05] [sv:dbg:pawn:GetVersion] : playerid(0) : return(0)
+[20:56:05] [sv:dbg:pawn:AddKey] : playerid(0), keyid(0x5a) : return(0)
+[20:56:05] [sv:dbg:pawn:CreateDLStreamAtPlayer] : distance(20.00), maxplayers(4294967295), playerid(0), color(0xff0000ff), name(L) : return(00000000)
+[20:56:05] Player ID 0 teve a vida alterada pelo servidor para 100.000000
+[20:56:05] [sv:dbg:pawn:GetVersion] : playerid(0) : return(0)
+[20:56:16] [sv:dbg:network:connect] : disconnecting player (0) ...
+[20:56:16] [part] 10001 has left the server (0:1)
+[21:00:00] Sincronização chamada
+[21:00:30]  -------------------------------------------
+[21:00:30]            SampVoice unloading...           
+[21:00:30]  -------------------------------------------
+[21:00:30] [dbg:raknet:free] : module releasing...
+[21:00:30] [dbg:raknet:free] : module released
+[21:00:30] [sv:dbg:network:free] : module releasing...
+[21:00:30] [sv:dbg:network:free] : module released

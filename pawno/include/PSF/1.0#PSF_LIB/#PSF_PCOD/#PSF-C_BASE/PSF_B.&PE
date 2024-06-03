@@ -1,0 +1,163 @@
+/*
+*
+*	-= PSF CODIFICAÇÃO BASE =-
+*	Protioso String Funções
+*	Autor: Protioso ([VGS]Protioso_OC)
+*
+*/
+
+stock psf_aCA(c)
+{
+	if(c > 122 || c < 65 || (c > 90 && c < 97)) return 0;
+	return 1;
+}
+
+stock psf_FormularaCa(&c)
+{
+	while(!psf_aCA(c))
+	{
+		if(c > 122) c-=c/2+5;
+		else if(c < 65) c+=c/2+7;
+		else if(c > 90 && c < 97) c+=c/2+4;
+	}
+	return c;
+}
+
+stock psf_nCA(c)
+{
+	if(c > 47 && c < 58) return 1;
+	return 0;
+}
+
+stock psf_FormularnCa(&c)
+{
+	while(!psf_nCA(c))
+	{
+		if(c > 57) c-=c/3-7;
+		else if(c < 48) c+=c/3+7;
+	}
+	return c;
+}
+
+stock psf_dC(str[], &ret, mr)
+{
+	new cp[256];
+	strcat(cp, str);
+	for(new mi; mi < 12; mi++)
+	{
+		if(psf_ParteExiste(cp, sapMi[mi]) && ret < mr) cp = psf_SubstituirCharC(cp, sapMi[mi], "", true, ret, mr);
+	}
+	for(new ma; ma < 14; ma++)
+	{
+		if(psf_ParteExiste(cp, sapMa[ma]) && ret < mr) cp = psf_SubstituirCharC(cp, sapMa[ma], "", true, ret, mr);
+	}
+	if(!ret) for(new cs; cs < strlen(cp); cs++) psf_adT(cp[cs]);
+	return cp;
+}
+
+stock psf_SubstituirCharC(str[], cs[], ct[], bool:ler_case_sensitive = true, &total_substituido, vezes_substituir)
+{
+	new
+		nc[256],
+	 	bool:case_s;
+	if(ler_case_sensitive) case_s = false;
+	else case_s = true;
+	psf_CopiarStr(nc, str);
+	new busca = strfind(nc, cs, false);
+	while(busca > -1 && (total_substituido < vezes_substituir))
+	{
+	    strdel(nc, busca, busca+strlen(cs));
+		strins(nc, ct, busca);
+		busca = strfind(nc, cs, case_s);
+		total_substituido++;
+    }
+	return nc;
+}
+
+stock psf_DuplarStr(str[])
+{
+	new ns[256];
+	strcat(ns, str);
+	new len = strlen(ns);
+	for(new c; c < len; c++) ns = psf_RegraDupla(ns, ns[c], psf_MaCA(ns[c]));
+	return ns;
+}
+
+stock psf_MaCA(c, v = 5)
+{
+	new q = c;
+	psf_adT(q, v);
+	return q;
+}
+stock psf_aCAF(&c)
+{
+	c += c/2+8;
+	while(!psf_aCA(c)) psf_FormularaCa(c);
+	return c;
+}
+
+stock psf_FormatarStr(str[], tf)
+{
+	new
+		str_f[256],
+		qA;
+	strcat(str_f, str);
+	if(strlen(str_f) < 3) str_f = psf_RegraTripla(str_f);
+	str_f =  psf_Filtrar(str_f);
+	str_f = psf_iFStr(str_f, psf_tO(tf));
+	str_f = psf_DuplarStr(str_f);
+ 	str_f = psf_iFStr(str_f, psf_tO(tf));
+	if(strlen(str_f) > psf_fE(psf_tO(tf))) str_f = psf_iFStr(str_f, psf_tO(tf));
+	str_f = psf_RegraQuarta(str_f, psf_tO(tf));
+	while(qA < tf)
+	{
+	    if(qA <= strlen(str_f))
+		{
+			psf_FormularnCa(str_f[qA]);
+			qA+=2;
+		}
+	}
+	for(new c; c < strlen(str_f); c++) psf_adT(str_f[c]);
+	return str_f;
+}
+
+stock psf_tO(tf)
+{
+	if(tf == TAXA_BAIXA*2) return TAXA_BAIXA;
+	else if(tf == TAXA_MEDIANA*2) return TAXA_MEDIANA;
+	else if(tf == TAXA_ALTA*2) return TAXA_ALTA;
+	else if(tf == TAXA_MAXIMA*2) return TAXA_MAXIMA;
+	else return TAXA_MEDIANA;
+}
+
+stock psf_fT(t)
+{
+	if(t > 0) return t*2;
+	else return TAXA_MEDIANA*2;
+}
+
+stock psf_fE(t)
+{
+	if(t == TAXA_BAIXA) return psf_fT(t)-2*2;
+	else if(t == TAXA_MEDIANA) return psf_fT(t)-2*3;
+	else if(t == TAXA_ALTA) return psf_fT(t)-2*4;
+	else if(t == TAXA_MAXIMA) return psf_fT(t)-2*5;
+	else return psf_fT(t == TAXA_MEDIANA)-2*2;
+}
+
+stock pse_cZ(&c)
+{
+	while(c == 48) psf_adT(c);
+	return c;
+}
+
+stock psf_mN(str[])
+{
+	for(new c; c < strlen(str); c++)
+	{
+		psf_FormularnCa(str[c]);
+		psf_adT(str[c], 6);
+		pse_cZ(str[c]);
+	}
+	return str;
+}

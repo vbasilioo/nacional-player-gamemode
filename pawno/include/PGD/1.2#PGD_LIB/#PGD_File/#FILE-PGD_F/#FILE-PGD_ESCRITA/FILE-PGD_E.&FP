@@ -1,0 +1,80 @@
+/*
+*
+*	-= PGD FORMULAÇÃO =-
+*	Protioso Gerenciamento de Dados
+*	Autor: Protioso ([VGS]Protioso_OC)
+*
+*/
+
+stock pgd_EscreverChave(arquivo[], chave[], strc[], prefixo[2] = ":")
+{
+	if(!pgd_ArquivoExiste(arquivo)) pgd_CriarArquivo(arquivo);
+	new
+		bool:achou = false,
+		str[MAX_PGD_CHAR],
+		strbusca[MAX_PGD_CHAR],
+		strlinha[MAX_PGD_CHAR],
+		cf[MAX_CHAVE_CHAR],
+		vf[MAX_VALOR_CHAR],
+		File:ArqM,
+		linhas,
+		linhaM;
+
+	if(strlen(chave) > MAX_CHAVE_CHAR) psf_CopiarStrL(cf, chave, 0, MAX_CHAVE_CHAR);
+	else psf_CopiarStrL(cf, chave, 0, strlen(chave));
+	if(strlen(strc) > MAX_CHAVE_CHAR) psf_CopiarStrL(vf, strc, 0, MAX_VALOR_CHAR);
+	else psf_CopiarStrL(vf, strc, 0, strlen(strc));
+	pgd_FormatarCP(strbusca, cf, prefixo);
+	ArqM = fopen(arquivo, io_read);
+	while(fread(ArqM, str, sizeof(str), false))
+	{
+		linhas++;
+	    if(pgd_VerificarLinha(str, strbusca, prefixo, achou, linhas))
+		{
+		    format(strlinha, sizeof(strlinha), "%s", str);
+			linhaM = linhas;
+		}
+	}
+	fclose(ArqM);
+	format(str, sizeof(str),"%s%s\r\n", strbusca, vf);
+	if(achou)
+	{
+		if(!strcmp(strlinha, str, false, strlen(str))) return 1;
+		pgd_MudarValor(arquivo, linhaM, str);
+	}
+	else
+	{
+		ArqM = fopen(arquivo, io_append);
+		fwrite(ArqM, str);
+		fclose(ArqM);
+	}
+	return 1;
+}
+
+stock pgd_EscreverArquivo(arquivo[], linha[], bool:comparar_igual = false)
+{
+	new
+		File:ArqM,
+		linhaf[MAX_PGD_LINHA_CHAR];
+	if(strlen(linha) > MAX_PGD_LINHA_CHAR) psf_CopiarStrL(linhaf, linha, 0, MAX_PGD_LINHA_CHAR);
+	else psf_CopiarStrL(linhaf, linha, 0, strlen(linha));
+	if(!pgd_ArquivoExiste(arquivo)) pgd_CriarArquivo(arquivo);
+	if(comparar_igual)
+	{
+	    new
+         	str[MAX_PGD_LINHA_CHAR],
+			bool:verificado;
+
+		ArqM = fopen(arquivo, io_read);
+		while(fread(ArqM, str, sizeof(str), false))
+		{
+		    if(!strfind(str, linhaf, false) && (str[strlen(str) - 1] == '\r' || str[strlen(str) - 1] == '\n')) verificado = true;
+		}
+		fclose(ArqM);
+		if(verificado) return 0;
+	}
+	ArqM = fopen(arquivo, io_append);
+	fwrite(ArqM, linhaf);
+	fclose(ArqM);
+	return 1;
+}

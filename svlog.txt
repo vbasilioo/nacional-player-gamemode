@@ -1,0 +1,52 @@
+[20:53:36] : [sv:dbg:network:init] : module initializing...
+[20:53:36] : [dbg:raknet:init] : module initializing...
+[20:53:36] : [dbg:raknet:init] : installed hook to 'GetRakServerInterface' function (ptr:0044FAD0)
+[20:53:36] : [dbg:raknet:init] : installed hook to 'OnPlayerDisconnect' function (ptr:0046D970)
+[20:53:36] : [dbg:raknet:init] : module initialized
+[20:53:36] : [sv:dbg:network:init] : module initialized
+[20:53:36] : [sv:dbg:pawn:init] : module initializing...
+[20:53:36] : [sv:dbg:pawn:init] : module initialized
+[20:53:36] :  -------------------------------------------    
+[20:53:36] :    ___                __   __    _              
+[20:53:36] :   / __| __ _ _ __  _ _\ \ / /__ (_) __ ___    
+[20:53:36] :   \__ \/ _` | '  \| '_ \   / _ \| |/ _/ -_)
+[20:53:36] :   |___/\__,_|_|_|_| .__/\_/\___/|_|\__\___|
+[20:53:36] :                   |_|                           
+[20:53:36] :  -------------------------------------------    
+[20:53:36] :            SampVoice by MOR loaded              
+[20:53:36] :  -------------------------------------------    
+[20:53:36] : [sv:dbg:main:AmxLoad] : net game pointer (value:00569C50) received
+[20:53:36] : [sv:dbg:network:bind] : voice server running on port 61701
+[20:53:36] : [sv:dbg:pawn:register] : finding 'OnPlayerActivationKeyPress' callback function...
+[20:53:36] : [sv:dbg:pawn:register] : finding 'OnPlayerActivationKeyRelease' callback function...
+[20:53:37] : [sv:dbg:main:AmxLoad] : failed to bind voice server
+[20:53:37] : [sv:dbg:pawn:register] : finding 'OnPlayerActivationKeyPress' callback function...
+[20:53:37] : [sv:dbg:pawn:register] : finded 'OnPlayerActivationKeyPress' callback function (index:424)
+[20:53:37] : [sv:dbg:pawn:register] : finding 'OnPlayerActivationKeyRelease' callback function...
+[20:53:37] : [sv:dbg:pawn:register] : finded 'OnPlayerActivationKeyRelease' callback function (index:425)
+[20:53:37] : [sv:dbg:pawn:Debug] : mode(1)
+[20:53:37] : [sv:dbg:pawn:CreateGStream] : color(0xffff0000), name(G) : return(007599D0)
+[20:55:37] : [sv:dbg:pawn:GetVersion] : playerid(0) : return(0)
+[20:55:37] : [sv:dbg:pawn:HasMicro] : playerid(0) : return(0)
+[20:55:37] : [sv:dbg:pawn:GetVersion] : playerid(0) : return(0)
+[20:55:37] : [sv:dbg:pawn:AddKey] : playerid(0), keyid(0x5a) : return(0)
+[20:55:37] : [sv:dbg:pawn:CreateDLStreamAtPlayer] : distance(20.00), maxplayers(4294967295), playerid(0), color(0xff0000ff), name(L) : return(00000000)
+[20:55:37] : [sv:dbg:pawn:GetVersion] : playerid(0) : return(0)
+[20:55:37] : [sv:dbg:pawn:GetVersion] : playerid(0) : return(0)
+[20:56:05] : [sv:dbg:pawn:GetVersion] : playerid(0) : return(0)
+[20:56:05] : [sv:dbg:pawn:GetVersion] : playerid(0) : return(0)
+[20:56:05] : [sv:dbg:pawn:HasMicro] : playerid(0) : return(0)
+[20:56:05] : [sv:dbg:pawn:GetVersion] : playerid(0) : return(0)
+[20:56:05] : [sv:dbg:pawn:AddKey] : playerid(0), keyid(0x5a) : return(0)
+[20:56:05] : [sv:dbg:pawn:CreateDLStreamAtPlayer] : distance(20.00), maxplayers(4294967295), playerid(0), color(0xff0000ff), name(L) : return(00000000)
+[20:56:05] : [sv:dbg:pawn:GetVersion] : playerid(0) : return(0)
+[20:56:16] : [sv:dbg:network:connect] : disconnecting player (0) ...
+[21:00:30] :  -------------------------------------------
+[21:00:30] :            SampVoice unloading...           
+[21:00:30] :  -------------------------------------------
+[21:00:30] : [sv:dbg:pawn:free] : module releasing...
+[21:00:30] : [sv:dbg:pawn:free] : module released
+[21:00:30] : [dbg:raknet:free] : module releasing...
+[21:00:30] : [dbg:raknet:free] : module released
+[21:00:30] : [sv:dbg:network:free] : module releasing...
+[21:00:30] : [sv:dbg:network:free] : module released

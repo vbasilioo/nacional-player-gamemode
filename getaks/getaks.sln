@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "getaks", "getaks\getaks.vcxproj", "{21EA71F0-5307-4BA9-B1CD-BF9C94C0482C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21EA71F0-5307-4BA9-B1CD-BF9C94C0482C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{21EA71F0-5307-4BA9-B1CD-BF9C94C0482C}.Debug|Win32.Build.0 = Debug|Win32
+		{21EA71F0-5307-4BA9-B1CD-BF9C94C0482C}.Release|Win32.ActiveCfg = Release|Win32
+		{21EA71F0-5307-4BA9-B1CD-BF9C94C0482C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

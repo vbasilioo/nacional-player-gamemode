@@ -1,0 +1,742 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[02:11:00] 
+[02:11:00] Server Plugins
+[02:11:00] --------------
+[02:11:00]  Loading plugin: streamer.so
+[02:11:00] 
+
+*** Streamer Plugin v2.7.2 by Incognito loaded ***
+
+[02:11:00]   Loaded.
+[02:11:00]  Loading plugin: sscanf.so
+[02:11:00] 
+
+[02:11:00]  ===============================
+
+[02:11:00]       sscanf plugin loaded.     
+
+[02:11:00]          Version:  2.8.3        
+
+[02:11:00]   (c) 2018 Alex "Y_Less" Cole  
+
+[02:11:00]  ===============================
+
+[02:11:00]   Loaded.
+[02:11:00]  Loading plugin: sampvoice.so
+[02:11:00] [sv:dbg:network:init] : module initializing...
+[02:11:00] [dbg:raknet:init] : module initializing...
+[02:11:00] [dbg:raknet:init] : installed hook to 'GetRakServerInterface' function (ptr:0x806ca30)
+[02:11:00] [dbg:raknet:init] : installed hook to 'OnPlayerDisconnect' function (ptr:0x80a51d0)
+[02:11:00] [dbg:raknet:init] : module initialized
+[02:11:00] [sv:dbg:network:init] : module initialized
+[02:11:00]  -------------------------------------------    
+[02:11:00]    ___                __   __    _              
+[02:11:00]   / __| __ _ _ __  _ _\ \ / /__ (_) __ ___    
+[02:11:00]   \__ \/ _` | '  \| '_ \   / _ \| |/ _/ -_)
+[02:11:00]   |___/\__,_|_|_|_| .__/\_/\___/|_|\__\___|
+[02:11:00]                   |_|                           
+[02:11:00]  -------------------------------------------    
+[02:11:00]            SampVoice by MOR loaded              
+[02:11:00]  -------------------------------------------    
+[02:11:00]   Loaded.
+[02:11:00]  Loaded 3 plugins.
+
+[02:11:00] 
+[02:11:00] Filterscripts
+[02:11:00] ---------------
+[02:11:00]   Loading filterscript 'mapas.amx'...
+[02:11:00] [sv:dbg:main:AmxLoad] : net game pointer (value:0x95d06a0) received
+[02:11:00] [sv:dbg:network:bind] : voice server running on port 42605
+[02:11:00] =-=-=-= Carregando Mapas =-=-=-=
+[02:11:00] Os mapas foram carregados.
+[02:11:00]   Loaded 1 filterscripts.
+
+[02:11:00] [sv:dbg:main:AmxLoad] : failed to bind voice server
+[02:11:00] [sv:dbg:pawn:Debug] : mode(1)
+[02:11:00] [sv:dbg:pawn:CreateGStream] : color(0xffff0000), name(G) : return(0xbc624c0)
+[02:11:00] -mSelection- WARNING: Failed to load list: "furnmenu.txt"
+[02:11:00] -mSelection- WARNING: Failed to load list: "doors.txt"
+[02:11:00] -mSelection- WARNING: Failed to load list: "walls.txt"
+[02:11:00] -mSelection- WARNING: Failed to load list: "bathroom.txt"
+[02:11:00] -mSelection- WARNING: Failed to load list: "beds.txt"
+[02:11:00] -mSelection- WARNING: Failed to load list: "chairs.txt"
+[02:11:00] -mSelection- WARNING: Failed to load list: "eletronics.txt"
+[02:11:00] -mSelection- WARNING: Failed to load list: "fitness.txt"
+[02:11:00] -mSelection- WARNING: Failed to load list: "kitchen.txt"
+[02:11:00] -mSelection- WARNING: Failed to load list: "lights.txt"
+[02:11:00] -mSelection- WARNING: Failed to load list: "tables.txt"
+[02:11:00] -mSelection- WARNING: Failed to load list: "bqgg.txt"
+[02:11:00] -mSelection- WARNING: Failed to load list: "skins.txt"
+[02:11:00] 
+---------------------------------------------------------
+[02:11:00] Server Ligado: [15/01/2022 02:11:00]
+[02:11:00] ---------------------------------------------------------
+
+[02:11:00] -----------------------------
+[02:11:00] *** GM - NP RP Iniciado ***
+[02:11:00] -----------------------------
+[02:11:00] [INFO]: 39 Orgs Carregadas
+[02:11:01] ===========[Carregando Eleições]============
+[02:11:01] Sistema de Eleições Carregado! Canditatos: 5 
+[02:11:01] [INFO-STREAM] 71003 Objetos Carregados!
+[02:11:01] Server password has been removed.
+[02:11:01]  
+[02:11:01]  
+[02:11:01] *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+[02:11:01]  --==||| NacionalPlayer - RP |=|Presidente: Lohan |=|
+[02:11:01] =======================================================
+[02:11:01] |X|NP|X| |X|NP|X|  NP OWNA e você sabe!  |X|NP|X| |X|NP|X|
+[02:11:01] *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+[02:11:01]  
+[02:11:01] Number of vehicle models: 188
+[02:11:03] Sincronização chamada
+[02:11:29] [connection] 177.142.212.107:59862 requests connection cookie.
+[02:11:30] [connection] incoming connection: 177.142.212.107:59862 id: 0
+[02:11:31] [sv:dbg:network:connect] : connecting player (0) with address (177.142.212.107) ...
+[02:11:31] [sv:dbg:network:connect] : player (0) assigned key (6bd48eb17fbdb031)
+[02:11:31] [join] Leamir_Smith has joined the server (0:177.142.212.107)
+[02:11:31] Player ID 0 teve a vida alterada pelo servidor para -5.000000
+[02:11:32] Player ID 0 teve a vida alterada pelo servidor para -5.000000
+[02:11:33] Player ID 0 teve a vida alterada pelo servidor para -5.000000
+[02:11:34] Player ID 0 teve a vida alterada pelo servidor para -5.000000
+[02:11:35] Player ID 0 teve a vida alterada pelo servidor para -5.000000
+[02:11:39] [connection] 189.103.147.138:64251 requests connection cookie.
+[02:11:40] Leamir_Smith Logou no Servidor.
+[02:11:40] [sv:dbg:pawn:GetVersion] : playerid(0) : return(11)
+[02:11:40] [sv:dbg:pawn:HasMicro] : playerid(0) : return(1)
+[02:11:40] [sv:dbg:pawn:GetVersion] : playerid(0) : return(11)
+[02:11:40] [sv:dbg:pawn:AddKey] : playerid(0), keyid(0x5a) : return(1)
+[02:11:40] [sv:dbg:pawn:CreateDLStreamAtPlayer] : distance(20.00), maxplayers(4294967295), playerid(0), color(0xff0000ff), name(L) : return(0xc14eb98)
+[02:11:40] O primeiro player logou no servidor e foi ativado o respawn de carros automático!
+[02:11:40] [sv:dbg:pawn:GetVersion] : playerid(0) : return(11)
+[02:11:40] Player ID 0 teve a vida alterada pelo servidor para 100.000000
+[02:11:40] [sv:dbg:pawn:GetVersion] : playerid(0) : return(11)
+[02:11:40] [connection] incoming connection: 189.103.147.138:64251 id: 1
+[02:11:41] [sv:dbg:network:connect] : connecting player (1) with address (189.103.147.138) ...
+[02:11:41] [sv:dbg:network:connect] : player (1) assigned key (8a9367bd0800203b)
+[02:11:41] [join] Caliiu_Walker has joined the server (1:189.103.147.138)
+[02:11:42] Player ID 1 teve a vida alterada pelo servidor para -5.000000
+[02:11:43] Player ID 1 teve a vida alterada pelo servidor para -5.000000
+[02:11:44] Player ID 1 teve a vida alterada pelo servidor para -5.000000
+[02:11:48] Caliiu_Walker Logou no Servidor.
+[02:11:48] [sv:dbg:pawn:GetVersion] : playerid(1) : return(10)
+[02:11:48] [sv:dbg:pawn:HasMicro] : playerid(1) : return(1)
+[02:11:48] [sv:dbg:pawn:GetVersion] : playerid(1) : return(10)
+[02:11:48] [sv:dbg:pawn:AddKey] : playerid(1), keyid(0x5a) : return(1)
+[02:11:48] [sv:dbg:pawn:CreateDLStreamAtPlayer] : distance(20.00), maxplayers(4294967295), playerid(1), color(0xff0000ff), name(L) : return(0xc12a1d8)
+[02:11:48] [sv:dbg:pawn:GetVersion] : playerid(1) : return(10)
+[02:11:48] [sv:dbg:pawn:GetVersion] : playerid(1) : return(10)
+[02:12:07] [sv:dbg:pawn:GetVersion] : playerid(0) : return(11)
+[02:12:07] [sv:dbg:pawn:GetVersion] : playerid(0) : return(11)
+[02:12:07] [sv:dbg:pawn:HasMicro] : playerid(0) : return(1)
+[02:12:07] [sv:dbg:pawn:GetVersion] : playerid(0) : return(11)
+[02:12:07] [sv:dbg:pawn:AddKey] : playerid(0), keyid(0x5a) : return(0)
+[02:12:07] [sv:dbg:pawn:CreateDLStreamAtPlayer] : distance(20.00), maxplayers(4294967295), playerid(0), color(0xff0000ff), name(L) : return(0xbf80688)
+[02:12:07] Player ID 0 teve a vida alterada pelo servidor para 100.000000
+[02:12:07] [sv:dbg:pawn:GetVersion] : playerid(0) : return(11)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[02:14:25] 
+[02:14:25] Server Plugins
+[02:14:25] --------------
+[02:14:25]  Loading plugin: streamer.so
+[02:14:25] 
+
+*** Streamer Plugin v2.7.2 by Incognito loaded ***
+
+[02:14:25]   Loaded.
+[02:14:25]  Loading plugin: sscanf.so
+[02:14:25] 
+
+[02:14:25]  ===============================
+
+[02:14:25]       sscanf plugin loaded.     
+
+[02:14:25]          Version:  2.8.3        
+
+[02:14:25]   (c) 2018 Alex "Y_Less" Cole  
+
+[02:14:25]  ===============================
+
+[02:14:25]   Loaded.
+[02:14:25]  Loading plugin: sampvoice.so
+[02:14:25] [sv:dbg:network:init] : module initializing...
+[02:14:25] [dbg:raknet:init] : module initializing...
+[02:14:25] [dbg:raknet:init] : installed hook to 'GetRakServerInterface' function (ptr:0x806ca30)
+[02:14:25] [dbg:raknet:init] : installed hook to 'OnPlayerDisconnect' function (ptr:0x80a51d0)
+[02:14:25] [dbg:raknet:init] : module initialized
+[02:14:25] [sv:dbg:network:init] : module initialized
+[02:14:25]  -------------------------------------------    
+[02:14:25]    ___                __   __    _              
+[02:14:25]   / __| __ _ _ __  _ _\ \ / /__ (_) __ ___    
+[02:14:25]   \__ \/ _` | '  \| '_ \   / _ \| |/ _/ -_)
+[02:14:25]   |___/\__,_|_|_|_| .__/\_/\___/|_|\__\___|
+[02:14:25]                   |_|                           
+[02:14:25]  -------------------------------------------    
+[02:14:25]            SampVoice by MOR loaded              
+[02:14:25]  -------------------------------------------    
+[02:14:25]   Loaded.
+[02:14:25]  Loaded 3 plugins.
+
+[02:14:25] 
+[02:14:25] Filterscripts
+[02:14:25] ---------------
+[02:14:25]   Loading filterscript 'mapas.amx'...
+[02:14:25] [sv:dbg:main:AmxLoad] : net game pointer (value:0x91c66a0) received
+[02:14:25] [sv:dbg:network:bind] : voice server running on port 41153
+[02:14:25] =-=-=-= Carregando Mapas =-=-=-=
+[02:14:25] Os mapas foram carregados.
+[02:14:25]   Loaded 1 filterscripts.
+
+[02:14:25] [sv:dbg:main:AmxLoad] : failed to bind voice server
+[02:14:25] [sv:dbg:pawn:Debug] : mode(1)
+[02:14:25] [sv:dbg:pawn:CreateGStream] : color(0xffff0000), name(G) : return(0xb8590c0)
+[02:14:25] -mSelection- WARNING: Failed to load list: "furnmenu.txt"
+[02:14:25] -mSelection- WARNING: Failed to load list: "doors.txt"
+[02:14:25] -mSelection- WARNING: Failed to load list: "walls.txt"
+[02:14:25] -mSelection- WARNING: Failed to load list: "bathroom.txt"
+[02:14:25] -mSelection- WARNING: Failed to load list: "beds.txt"
+[02:14:25] -mSelection- WARNING: Failed to load list: "chairs.txt"
+[02:14:25] -mSelection- WARNING: Failed to load list: "eletronics.txt"
+[02:14:25] -mSelection- WARNING: Failed to load list: "fitness.txt"
+[02:14:25] -mSelection- WARNING: Failed to load list: "kitchen.txt"
+[02:14:25] -mSelection- WARNING: Failed to load list: "lights.txt"
+[02:14:25] -mSelection- WARNING: Failed to load list: "tables.txt"
+[02:14:25] -mSelection- WARNING: Failed to load list: "bqgg.txt"
+[02:14:25] -mSelection- WARNING: Failed to load list: "skins.txt"
+[02:14:25] 
+---------------------------------------------------------
+[02:14:25] Server Ligado: [15/01/2022 02:14:25]
+[02:14:25] ---------------------------------------------------------
+
+[02:14:25] -----------------------------
+[02:14:25] *** GM - NP RP Iniciado ***
+[02:14:25] -----------------------------
+[02:14:25] [INFO]: 39 Orgs Carregadas
+[02:14:26] ===========[Carregando Eleições]============
+[02:14:26] Sistema de Eleições Carregado! Canditatos: 5 
+[02:14:26] [INFO-STREAM] 71003 Objetos Carregados!
+[02:14:26] Server password has been removed.
+[02:14:26]  
+[02:14:26]  
+[02:14:26] *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+[02:14:26]  --==||| NacionalPlayer - RP |=|Presidente: Lohan |=|
+[02:14:26] =======================================================
+[02:14:26] |X|NP|X| |X|NP|X|  NP OWNA e você sabe!  |X|NP|X| |X|NP|X|
+[02:14:26] *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+[02:14:26]  
+[02:14:26] Number of vehicle models: 188
+[02:14:28] Sincronização chamada
+[02:14:31] --- Server Shutting Down.
+[02:14:31] 
+---------------------------------------------------------
+[02:14:31] Server Desligado: [15/01/2022 02:14:31]
+[02:14:31] ---------------------------------------------------------
+
+[02:14:32] 
+
+*** Streamer Plugin v2.7.2 by Incognito unloaded ***
+
+[02:14:32] 
+
+[02:14:32]  ===============================
+
+[02:14:32]      sscanf plugin unloaded.    
+
+[02:14:32]  ===============================
+
+[02:14:32]  -------------------------------------------
+[02:14:32]            SampVoice unloading...           
+[02:14:32]  -------------------------------------------
+[02:14:32] [dbg:raknet:free] : module releasing...
+[02:14:32] [dbg:raknet:free] : module released
+[02:14:32] [sv:dbg:network:free] : module releasing...
+[02:14:32] [sv:dbg:network:free] : module released
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[02:14:36] 
+[02:14:36] Server Plugins
+[02:14:36] --------------
+[02:14:36]  Loading plugin: streamer.so
+[02:14:36] 
+
+*** Streamer Plugin v2.7.2 by Incognito loaded ***
+
+[02:14:36]   Loaded.
+[02:14:36]  Loading plugin: sscanf.so
+[02:14:36] 
+
+[02:14:36]  ===============================
+
+[02:14:36]       sscanf plugin loaded.     
+
+[02:14:36]          Version:  2.8.3        
+
+[02:14:36]   (c) 2018 Alex "Y_Less" Cole  
+
+[02:14:36]  ===============================
+
+[02:14:36]   Loaded.
+[02:14:36]  Loading plugin: sampvoice.so
+[02:14:36] [sv:dbg:network:init] : module initializing...
+[02:14:36] [dbg:raknet:init] : module initializing...
+[02:14:36] [dbg:raknet:init] : installed hook to 'GetRakServerInterface' function (ptr:0x806ca30)
+[02:14:36] [dbg:raknet:init] : installed hook to 'OnPlayerDisconnect' function (ptr:0x80a51d0)
+[02:14:36] [dbg:raknet:init] : module initialized
+[02:14:36] [sv:dbg:network:init] : module initialized
+[02:14:36]  -------------------------------------------    
+[02:14:36]    ___                __   __    _              
+[02:14:36]   / __| __ _ _ __  _ _\ \ / /__ (_) __ ___    
+[02:14:36]   \__ \/ _` | '  \| '_ \   / _ \| |/ _/ -_)
+[02:14:36]   |___/\__,_|_|_|_| .__/\_/\___/|_|\__\___|
+[02:14:36]                   |_|                           
+[02:14:36]  -------------------------------------------    
+[02:14:36]            SampVoice by MOR loaded              
+[02:14:36]  -------------------------------------------    
+[02:14:36]   Loaded.
+[02:14:36]  Loaded 3 plugins.
+
+[02:14:36] 
+[02:14:36] Filterscripts
+[02:14:36] ---------------
+[02:14:36]   Loading filterscript 'mapas.amx'...
+[02:14:36] [sv:dbg:main:AmxLoad] : net game pointer (value:0x84b56a0) received
+[02:14:36] [sv:dbg:network:bind] : voice server running on port 34406
+[02:14:36] =-=-=-= Carregando Mapas =-=-=-=
+[02:14:36] Os mapas foram carregados.
+[02:14:36]   Loaded 1 filterscripts.
+
+[02:14:36] [sv:dbg:main:AmxLoad] : failed to bind voice server
+[02:14:36] [sv:dbg:pawn:Debug] : mode(1)
+[02:14:36] [sv:dbg:pawn:CreateGStream] : color(0xffff0000), name(G) : return(0xab474c0)
+[02:14:36] -mSelection- WARNING: Failed to load list: "furnmenu.txt"
+[02:14:36] -mSelection- WARNING: Failed to load list: "doors.txt"
+[02:14:36] -mSelection- WARNING: Failed to load list: "walls.txt"
+[02:14:36] -mSelection- WARNING: Failed to load list: "bathroom.txt"
+[02:14:36] -mSelection- WARNING: Failed to load list: "beds.txt"
+[02:14:36] -mSelection- WARNING: Failed to load list: "chairs.txt"
+[02:14:36] -mSelection- WARNING: Failed to load list: "eletronics.txt"
+[02:14:36] -mSelection- WARNING: Failed to load list: "fitness.txt"
+[02:14:36] -mSelection- WARNING: Failed to load list: "kitchen.txt"
+[02:14:36] -mSelection- WARNING: Failed to load list: "lights.txt"
+[02:14:36] -mSelection- WARNING: Failed to load list: "tables.txt"
+[02:14:36] -mSelection- WARNING: Failed to load list: "bqgg.txt"
+[02:14:36] -mSelection- WARNING: Failed to load list: "skins.txt"
+[02:14:36] 
+---------------------------------------------------------
+[02:14:36] Server Ligado: [15/01/2022 02:14:36]
+[02:14:36] ---------------------------------------------------------
+
+[02:14:36] -----------------------------
+[02:14:36] *** GM - NP RP Iniciado ***
+[02:14:36] -----------------------------
+[02:14:36] [INFO]: 39 Orgs Carregadas
+[02:14:37] ===========[Carregando Eleições]============
+[02:14:37] Sistema de Eleições Carregado! Canditatos: 5 
+[02:14:37] [INFO-STREAM] 71003 Objetos Carregados!
+[02:14:37] Server password has been removed.
+[02:14:37]  
+[02:14:37]  
+[02:14:37] *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+[02:14:37]  --==||| NacionalPlayer - RP |=|Presidente: Lohan |=|
+[02:14:37] =======================================================
+[02:14:37] |X|NP|X| |X|NP|X|  NP OWNA e você sabe!  |X|NP|X| |X|NP|X|
+[02:14:37] *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+[02:14:37]  
+[02:14:37] Number of vehicle models: 188
+[02:14:37] --- Server Shutting Down.
+[02:14:37] 
+---------------------------------------------------------
+[02:14:37] Server Desligado: [15/01/2022 02:14:37]
+[02:14:37] ---------------------------------------------------------
+
+[02:14:37] 
+
+*** Streamer Plugin v2.7.2 by Incognito unloaded ***
+
+[02:14:37] 
+
+[02:14:37]  ===============================
+
+[02:14:37]      sscanf plugin unloaded.    
+
+[02:14:37]  ===============================
+
+[02:14:37]  -------------------------------------------
+[02:14:37]            SampVoice unloading...           
+[02:14:37]  -------------------------------------------
+[02:14:38] [dbg:raknet:free] : module releasing...
+[02:14:38] [dbg:raknet:free] : module released
+[02:14:38] [sv:dbg:network:free] : module releasing...
+[02:14:38] [sv:dbg:network:free] : module released
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[02:14:48] 
+[02:14:48] Server Plugins
+[02:14:48] --------------
+[02:14:48]  Loading plugin: streamer.so
+[02:14:48] 
+
+*** Streamer Plugin v2.7.2 by Incognito loaded ***
+
+[02:14:48]   Loaded.
+[02:14:48]  Loading plugin: sscanf.so
+[02:14:48] 
+
+[02:14:48]  ===============================
+
+[02:14:48]       sscanf plugin loaded.     
+
+[02:14:48]          Version:  2.8.3        
+
+[02:14:48]   (c) 2018 Alex "Y_Less" Cole  
+
+[02:14:48]  ===============================
+
+[02:14:48]   Loaded.
+[02:14:48]  Loading plugin: sampvoice.so
+[02:14:48] [sv:dbg:network:init] : module initializing...
+[02:14:48] [dbg:raknet:init] : module initializing...
+[02:14:48] [dbg:raknet:init] : installed hook to 'GetRakServerInterface' function (ptr:0x806ca30)
+[02:14:48] [dbg:raknet:init] : installed hook to 'OnPlayerDisconnect' function (ptr:0x80a51d0)
+[02:14:48] [dbg:raknet:init] : module initialized
+[02:14:48] [sv:dbg:network:init] : module initialized
+[02:14:48]  -------------------------------------------    
+[02:14:48]    ___                __   __    _              
+[02:14:48]   / __| __ _ _ __  _ _\ \ / /__ (_) __ ___    
+[02:14:48]   \__ \/ _` | '  \| '_ \   / _ \| |/ _/ -_)
+[02:14:48]   |___/\__,_|_|_|_| .__/\_/\___/|_|\__\___|
+[02:14:48]                   |_|                           
+[02:14:48]  -------------------------------------------    
+[02:14:48]            SampVoice by MOR loaded              
+[02:14:48]  -------------------------------------------    
+[02:14:48]   Loaded.
+[02:14:48]  Loaded 3 plugins.
+
+[02:14:48] 
+[02:14:48] Filterscripts
+[02:14:48] ---------------
+[02:14:48]   Loading filterscript 'mapas.amx'...
+[02:14:48] [sv:dbg:main:AmxLoad] : net game pointer (value:0x970a6a0) received
+[02:14:48] [sv:dbg:network:bind] : voice server running on port 48052
+[02:14:48] =-=-=-= Carregando Mapas =-=-=-=
+[02:14:48] Os mapas foram carregados.
+[02:14:48]   Loaded 1 filterscripts.
+
+[02:14:48] [sv:dbg:main:AmxLoad] : failed to bind voice server
+[02:14:48] [sv:dbg:pawn:Debug] : mode(1)
+[02:14:48] [sv:dbg:pawn:CreateGStream] : color(0xffff0000), name(G) : return(0xbd9d0c0)
+[02:14:48] -mSelection- WARNING: Failed to load list: "furnmenu.txt"
+[02:14:48] -mSelection- WARNING: Failed to load list: "doors.txt"
+[02:14:48] -mSelection- WARNING: Failed to load list: "walls.txt"
+[02:14:48] -mSelection- WARNING: Failed to load list: "bathroom.txt"
+[02:14:48] -mSelection- WARNING: Failed to load list: "beds.txt"
+[02:14:48] -mSelection- WARNING: Failed to load list: "chairs.txt"
+[02:14:48] -mSelection- WARNING: Failed to load list: "eletronics.txt"
+[02:14:48] -mSelection- WARNING: Failed to load list: "fitness.txt"
+[02:14:48] -mSelection- WARNING: Failed to load list: "kitchen.txt"
+[02:14:48] -mSelection- WARNING: Failed to load list: "lights.txt"
+[02:14:48] -mSelection- WARNING: Failed to load list: "tables.txt"
+[02:14:48] -mSelection- WARNING: Failed to load list: "bqgg.txt"
+[02:14:48] -mSelection- WARNING: Failed to load list: "skins.txt"
+[02:14:48] 
+---------------------------------------------------------
+[02:14:48] Server Ligado: [15/01/2022 02:14:48]
+[02:14:48] ---------------------------------------------------------
+
+[02:14:48] -----------------------------
+[02:14:48] *** GM - NP RP Iniciado ***
+[02:14:48] -----------------------------
+[02:14:48] [INFO]: 39 Orgs Carregadas
+[02:14:49] ===========[Carregando Eleições]============
+[02:14:49] Sistema de Eleições Carregado! Canditatos: 5 
+[02:14:49] [INFO-STREAM] 71003 Objetos Carregados!
+[02:14:49] Server password has been removed.
+[02:14:49]  
+[02:14:49]  
+[02:14:49] *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+[02:14:49]  --==||| NacionalPlayer - RP |=|Presidente: Lohan |=|
+[02:14:49] =======================================================
+[02:14:49] |X|NP|X| |X|NP|X|  NP OWNA e você sabe!  |X|NP|X| |X|NP|X|
+[02:14:49] *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+[02:14:49]  
+[02:14:49] Number of vehicle models: 188
+[02:14:51] Sincronização chamada
+[02:14:53] --- Server Shutting Down.
+[02:14:53] 
+---------------------------------------------------------
+[02:14:53] Server Desligado: [15/01/2022 02:14:53]
+[02:14:53] ---------------------------------------------------------
+
+[02:14:53] 
+
+*** Streamer Plugin v2.7.2 by Incognito unloaded ***
+
+[02:14:53] 
+
+[02:14:53]  ===============================
+
+[02:14:53]      sscanf plugin unloaded.    
+
+[02:14:53]  ===============================
+
+[02:14:53]  -------------------------------------------
+[02:14:53]            SampVoice unloading...           
+[02:14:53]  -------------------------------------------
+[02:14:54] [dbg:raknet:free] : module releasing...
+[02:14:54] [dbg:raknet:free] : module released
+[02:14:54] [sv:dbg:network:free] : module releasing...
+[02:14:54] [sv:dbg:network:free] : module released
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[02:15:28] 
+[02:15:28] Server Plugins
+[02:15:28] --------------
+[02:15:28]  Loading plugin: streamer.so
+[02:15:28] 
+
+*** Streamer Plugin v2.7.2 by Incognito loaded ***
+
+[02:15:28]   Loaded.
+[02:15:28]  Loading plugin: sscanf.so
+[02:15:28] 
+
+[02:15:28]  ===============================
+
+[02:15:28]       sscanf plugin loaded.     
+
+[02:15:28]          Version:  2.8.3        
+
+[02:15:28]   (c) 2018 Alex "Y_Less" Cole  
+
+[02:15:28]  ===============================
+
+[02:15:28]   Loaded.
+[02:15:28]  Loading plugin: sampvoice.so
+[02:15:28] [sv:dbg:network:init] : module initializing...
+[02:15:28] [dbg:raknet:init] : module initializing...
+[02:15:28] [dbg:raknet:init] : installed hook to 'GetRakServerInterface' function (ptr:0x806ca30)
+[02:15:28] [dbg:raknet:init] : installed hook to 'OnPlayerDisconnect' function (ptr:0x80a51d0)
+[02:15:28] [dbg:raknet:init] : module initialized
+[02:15:28] [sv:dbg:network:init] : module initialized
+[02:15:28]  -------------------------------------------    
+[02:15:28]    ___                __   __    _              
+[02:15:28]   / __| __ _ _ __  _ _\ \ / /__ (_) __ ___    
+[02:15:28]   \__ \/ _` | '  \| '_ \   / _ \| |/ _/ -_)
+[02:15:28]   |___/\__,_|_|_|_| .__/\_/\___/|_|\__\___|
+[02:15:28]                   |_|                           
+[02:15:28]  -------------------------------------------    
+[02:15:28]            SampVoice by MOR loaded              
+[02:15:28]  -------------------------------------------    
+[02:15:28]   Loaded.
+[02:15:28]  Loaded 3 plugins.
+
+[02:15:28] 
+[02:15:28] Filterscripts
+[02:15:28] ---------------
+[02:15:28]   Loading filterscript 'mapas.amx'...
+[02:15:28] [sv:dbg:main:AmxLoad] : net game pointer (value:0x86cd6a0) received
+[02:15:28] [sv:dbg:network:bind] : voice server running on port 40658
+[02:15:28] =-=-=-= Carregando Mapas =-=-=-=
+[02:15:28] Os mapas foram carregados.
+[02:15:28]   Loaded 1 filterscripts.
+
+[02:15:28] [sv:dbg:main:AmxLoad] : failed to bind voice server
+[02:15:28] [sv:dbg:pawn:Debug] : mode(1)
+[02:15:28] [sv:dbg:pawn:CreateGStream] : color(0xffff0000), name(G) : return(0xad600c0)
+[02:15:28] -mSelection- WARNING: Failed to load list: "furnmenu.txt"
+[02:15:28] -mSelection- WARNING: Failed to load list: "doors.txt"
+[02:15:28] -mSelection- WARNING: Failed to load list: "walls.txt"
+[02:15:28] -mSelection- WARNING: Failed to load list: "bathroom.txt"
+[02:15:28] -mSelection- WARNING: Failed to load list: "beds.txt"
+[02:15:28] -mSelection- WARNING: Failed to load list: "chairs.txt"
+[02:15:28] -mSelection- WARNING: Failed to load list: "eletronics.txt"
+[02:15:28] -mSelection- WARNING: Failed to load list: "fitness.txt"
+[02:15:28] -mSelection- WARNING: Failed to load list: "kitchen.txt"
+[02:15:28] -mSelection- WARNING: Failed to load list: "lights.txt"
+[02:15:28] -mSelection- WARNING: Failed to load list: "tables.txt"
+[02:15:28] -mSelection- WARNING: Failed to load list: "bqgg.txt"
+[02:15:28] -mSelection- WARNING: Failed to load list: "skins.txt"
+[02:15:28] 
+---------------------------------------------------------
+[02:15:28] Server Ligado: [15/01/2022 02:15:28]
+[02:15:28] ---------------------------------------------------------
+
+[02:15:28] -----------------------------
+[02:15:28] *** GM - NP RP Iniciado ***
+[02:15:28] -----------------------------
+[02:15:28] [INFO]: 39 Orgs Carregadas
+[02:15:29] ===========[Carregando Eleições]============
+[02:15:29] Sistema de Eleições Carregado! Canditatos: 5 
+[02:15:29] [INFO-STREAM] 71003 Objetos Carregados!
+[02:15:29] Server password has been removed.
+[02:15:29]  
+[02:15:29]  
+[02:15:29] *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+[02:15:29]  --==||| NacionalPlayer - RP |=|Presidente: Lohan |=|
+[02:15:29] =======================================================
+[02:15:29] |X|NP|X| |X|NP|X|  NP OWNA e você sabe!  |X|NP|X| |X|NP|X|
+[02:15:29] *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+[02:15:29]  
+[02:15:29] Number of vehicle models: 188
+[02:15:31] --- Server Shutting Down.
+[02:15:31] 
+---------------------------------------------------------
+[02:15:31] Server Desligado: [15/01/2022 02:15:31]
+[02:15:31] ---------------------------------------------------------
+
+[02:15:31] 
+
+*** Streamer Plugin v2.7.2 by Incognito unloaded ***
+
+[02:15:31] 
+
+[02:15:31]  ===============================
+
+[02:15:31]      sscanf plugin unloaded.    
+
+[02:15:31]  ===============================
+
+[02:15:31]  -------------------------------------------
+[02:15:31]            SampVoice unloading...           
+[02:15:31]  -------------------------------------------
+[02:15:32] [dbg:raknet:free] : module releasing...
+[02:15:32] [dbg:raknet:free] : module released
+[02:15:32] [sv:dbg:network:free] : module releasing...
+[02:15:32] [sv:dbg:network:free] : module released
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[02:16:14] 
+[02:16:14] Server Plugins
+[02:16:14] --------------
+[02:16:14]  Loading plugin: streamer.so
+[02:16:14] 
+
+*** Streamer Plugin v2.7.2 by Incognito loaded ***
+
+[02:16:14]   Loaded.
+[02:16:14]  Loading plugin: sscanf.so
+[02:16:14] 
+
+[02:16:14]  ===============================
+
+[02:16:14]       sscanf plugin loaded.     
+
+[02:16:14]          Version:  2.8.3        
+
+[02:16:14]   (c) 2018 Alex "Y_Less" Cole  
+
+[02:16:14]  ===============================
+
+[02:16:14]   Loaded.
+[02:16:14]  Loading plugin: sampvoice.so
+[02:16:14] [sv:dbg:network:init] : module initializing...
+[02:16:14] [dbg:raknet:init] : module initializing...
+[02:16:14] [dbg:raknet:init] : installed hook to 'GetRakServerInterface' function (ptr:0x806ca30)
+[02:16:14] [dbg:raknet:init] : installed hook to 'OnPlayerDisconnect' function (ptr:0x80a51d0)
+[02:16:14] [dbg:raknet:init] : module initialized
+[02:16:14] [sv:dbg:network:init] : module initialized
+[02:16:14]  -------------------------------------------    
+[02:16:14]    ___                __   __    _              
+[02:16:14]   / __| __ _ _ __  _ _\ \ / /__ (_) __ ___    
+[02:16:14]   \__ \/ _` | '  \| '_ \   / _ \| |/ _/ -_)
+[02:16:14]   |___/\__,_|_|_|_| .__/\_/\___/|_|\__\___|
+[02:16:14]                   |_|                           
+[02:16:14]  -------------------------------------------    
+[02:16:14]            SampVoice by MOR loaded              
+[02:16:14]  -------------------------------------------    
+[02:16:14]   Loaded.
+[02:16:14]  Loaded 3 plugins.
+
+[02:16:14] 
+[02:16:14] Filterscripts
+[02:16:14] ---------------
+[02:16:14]   Loading filterscript 'mapas.amx'...
+[02:16:14] [sv:dbg:main:AmxLoad] : net game pointer (value:0x931c6a0) received
+[02:16:14] [sv:dbg:network:bind] : voice server running on port 37104
+[02:16:14] =-=-=-= Carregando Mapas =-=-=-=
+[02:16:14] Os mapas foram carregados.
+[02:16:14]   Loaded 1 filterscripts.
+
+[02:16:14] [sv:dbg:main:AmxLoad] : failed to bind voice server
+[02:16:14] [sv:dbg:pawn:Debug] : mode(1)
+[02:16:14] [sv:dbg:pawn:CreateGStream] : color(0xffff0000), name(G) : return(0xb9af0c0)
+[02:16:14] -mSelection- WARNING: Failed to load list: "furnmenu.txt"
+[02:16:14] -mSelection- WARNING: Failed to load list: "doors.txt"
+[02:16:14] -mSelection- WARNING: Failed to load list: "walls.txt"
+[02:16:14] -mSelection- WARNING: Failed to load list: "bathroom.txt"
+[02:16:14] -mSelection- WARNING: Failed to load list: "beds.txt"
+[02:16:14] -mSelection- WARNING: Failed to load list: "chairs.txt"
+[02:16:14] -mSelection- WARNING: Failed to load list: "eletronics.txt"
+[02:16:14] -mSelection- WARNING: Failed to load list: "fitness.txt"
+[02:16:14] -mSelection- WARNING: Failed to load list: "kitchen.txt"
+[02:16:14] -mSelection- WARNING: Failed to load list: "lights.txt"
+[02:16:14] -mSelection- WARNING: Failed to load list: "tables.txt"
+[02:16:14] -mSelection- WARNING: Failed to load list: "bqgg.txt"
+[02:16:14] -mSelection- WARNING: Failed to load list: "skins.txt"
+[02:16:14] 
+---------------------------------------------------------
+[02:16:14] Server Ligado: [15/01/2022 02:16:14]
+[02:16:14] ---------------------------------------------------------
+
+[02:16:14] -----------------------------
+[02:16:14] *** GM - NP RP Iniciado ***
+[02:16:14] -----------------------------
+[02:16:14] [INFO]: 39 Orgs Carregadas
+[02:16:15] ===========[Carregando Eleições]============
+[02:16:15] Sistema de Eleições Carregado! Canditatos: 5 
+[02:16:15] [INFO-STREAM] 71003 Objetos Carregados!
+[02:16:15] Server password has been removed.
+[02:16:15]  
+[02:16:15]  
+[02:16:15] *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+[02:16:15]  --==||| NacionalPlayer - RP |=|Presidente: Lohan |=|
+[02:16:15] =======================================================
+[02:16:15] |X|NP|X| |X|NP|X|  NP OWNA e você sabe!  |X|NP|X| |X|NP|X|
+[02:16:15] *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+[02:16:15]  
+[02:16:15] Number of vehicle models: 188
+[02:16:17] Sincronização chamada
